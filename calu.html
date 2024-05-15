@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="main.css">
+  <title>電卓課題</title>
+</head>
+<body>
+ <h3>電卓</h3>
+ <input type="text" id="result">
+ <div>
+    <div>
+     <input type="button" value="7" onclick="number(this)">
+     <input type="button" value="8" onclick="number(this)">
+     <input type="button" value="9" onclick="number(this)">
+     <input class="operetor" type="button" value="/" onclick="edit(this)">
+    </div>
+    <div>
+     <input type="button" value="4" onclick="number(this)">
+     <input type="button" value="5" onclick="number(this)">
+     <input type="button" value="6" onclick="number(this)">
+     <input class="operetor" type="button" value="*" onclick="edit(this)">
+    </div>
+    <div>
+     <input type="button" value="1" onclick="number(this)">
+     <input type="button" value="2" onclick="number(this)">
+     <input type="button" value="3" onclick="number(this)">
+     <input class="operetor" type="button" value="-" onclick="edit(this)">
+    </div>
+    <div>
+     <input type="button" value="0" onclick="number(this)">
+     <input type="button" value="00" onclick="number(this)">
+     <input type="button" value="." onclick="edit(this)">
+     <input class="operetor" type="button" value="+" onclick="edit(this)">
+    </div>
+    <div>
+     <input class="clear" type="button" value="AC" onclick="update()">
+     <input class="enter" type="button" value="=" onclick="calc()">
+    </div>
+ </div>
+  <script src="main.js">
+ </script>
+</body>
+</html>

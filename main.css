@@ -1,0 +1,85 @@
+@charset "utf-8";
+
+body {
+    width: 400px;
+    height: 500px;
+    text-align: center;
+    border: solid ;
+    border-top: solid #dcdcdca4  6px;
+    border-bottom: solid #dcdcdca4 6px;
+    border-right: solid #dcdcdca4 6px;
+    border-left: solid #b6b6b6 7px;
+    background-color: #fff;
+    border-radius: 20px;
+    margin: 20px;
+    padding: 7px;
+    text-align: center;
+  }
+h3 {
+  margin-top: auto;
+}
+#result {
+  width: 300px;
+  height: 70px;
+  background-color: #d3d3d3;
+  color: #222222;
+  margin-bottom: 15px;
+  box-sizing: border-box;
+  text-align: right;
+  border-top: solid #c0c0c0 5px;
+  border-bottom: solid #c0c0c0 5px;
+  border-right: solid #c0c0c0 7px;
+  border-left: solid #dcdcdc 6px;
+  border-radius: 5px;
+}
+/*ボタンの設定*/
+input {
+  justify-content: space-between;
+  width: 70px;
+  height: 70px;
+  font-size:38px;
+  background-color: #696969;
+  color: #eeeeee;
+  border-radius: 15px;
+}
+.clear {
+  width: 150px;
+  background-color: #00bfff;
+}
+.enter {
+  width: 150px;
+  background-color: #00bfff;
+}
+.operetor {
+  background-color: #1e90ff;
+}
+
+/*ボタンにカーソルを置いたときに色が変化*/
+input:hover {
+  background: #333333;
+}
+.operetor:hover {
+  background: #4169e1;
+}
+.clear:hover {
+  background: #6495ed;
+}
+.enter:hover {
+  background: #6495ed;
+}
+
+/*ボタンクリック時*/
+input:active {
+  background: #5a5a5a;
+}
+.operetor:active {
+  background: #6495ed;
+}
+.clear:active {
+  background: #1e90ff;
+}
+.enter:active {
+  background: #1e90ff;
+}
+
+
